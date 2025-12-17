@@ -1,4 +1,4 @@
-const CACHE_NAME = "moldeo-pwa-v1";
+const CACHE_NAME = "moldeo-pwa-v2";
 const FILES_TO_CACHE = [
   "./",
   "./index.html",
@@ -21,3 +21,4 @@ self.addEventListener("fetch", event => {
     })
   );
 });
+
